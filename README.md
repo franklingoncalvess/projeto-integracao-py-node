@@ -1,20 +1,21 @@
-# Projeto de Integração Node.js e Python
+# 🔄 Integração Node.js & Python
 
-Este projeto demonstra a integração entre Node.js e Python. O Node.js, utilizando o framework Express, atua como servidor, recebendo requisições e enviando respostas. A lógica de cálculo é processada em Python, garantindo uma separação de responsabilidades e permitindo o uso de bibliotecas e recursos específicos de cada linguagem.
+Este repositório foca na interoperabilidade entre diferentes ambientes de execução, integrando a performance do Node.js com a versatilidade do Python.
 
-## Como rodar o projeto
+## 🏗️ Arquitetura
+* **Serviços:** Comunicação via chamadas de sistema e APIs.
+* **Runtime:** Node.js 24.15.0 (LTS) & Python 3.x.
+* **Infra:** Desenvolvido e testado em ambiente Linux (WSL2).
 
-1.  Certifique-se de ter o Node.js e o Python instalados.
-2.  Instale as dependências do Node.js:
+## 🧠 Conceitos Aplicados
+* Modularização de código.
+* Automação de processos entre linguagens.
+* Estrutura pronta para containerização (Docker).
 
-```bash
-npm install
-```
+## 🚀 Próximos Passos (Roadmap DevOps)
+- [ ] Criar Dockerfile para o serviço Node.
+- [ ] Implementar GitHub Actions para CI/CD.
+- [ ] Configurar monitoramento básico de logs.
 
-3.  Execute o servidor Node.js:
-
-```bash
-node app.js
-```
-
-4.  Acesse a rota no seu navegador.
+---
+💡 *Focado em entender como diferentes tecnologias conversam em um ecossistema de microserviços.*
